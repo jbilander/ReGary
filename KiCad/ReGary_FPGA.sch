@@ -500,4 +500,51 @@ Connection ~ 7600 5300
 Connection ~ 7950 5300
 Wire Wire Line
 	7950 5300 8300 5300
+$Comp
+L ReGary:GW1N-UV1P5LQ100 U1
+U 1 1 67C4A39D
+P 3400 4150
+F 0 "U1" H 3400 4250 50  0000 C CNN
+F 1 "GW1N-UV1P5LQ100" H 3400 4150 50  0000 C CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 3400 4150 50  0001 C CNN
+F 3 "" H 3400 4150 50  0001 C CNN
+	1    3400 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 2100 1    50   Input ~ 0
+3V3
+Text GLabel 2900 2100 1    50   Input ~ 0
+3V3
+Text GLabel 2200 2100 1    50   Input ~ 0
+3V3
+Text GLabel 1350 3350 0    50   Input ~ 0
+3V3
+Text GLabel 1350 5150 0    50   Input ~ 0
+3V3
+Text GLabel 2200 6200 3    50   Input ~ 0
+3V3
+Text GLabel 4200 6200 3    50   Input ~ 0
+3V3
+Text GLabel 4600 6200 3    50   Input ~ 0
+3V3
+Text GLabel 5450 4950 2    50   Input ~ 0
+3V3
+Text GLabel 5450 3150 2    50   Input ~ 0
+3V3
+Text GLabel 1350 3450 0    50   Input ~ 0
+GND
+Text GLabel 1350 5050 0    50   Input ~ 0
+GND
+Text GLabel 2900 6200 3    50   Input ~ 0
+GND
+Text GLabel 4000 6200 3    50   Input ~ 0
+GND
+Text GLabel 5450 4850 2    50   Input ~ 0
+GND
+Text GLabel 5450 3250 2    50   Input ~ 0
+GND
+Text GLabel 4300 2100 1    50   Input ~ 0
+GND
+Text GLabel 3000 2100 1    50   Input ~ 0
+GND
 $EndSCHEMATC
