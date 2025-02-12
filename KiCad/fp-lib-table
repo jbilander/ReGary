@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ReGary)(type KiCad)(uri ${KIPRJMOD}/ReGary.pretty)(options "")(descr ""))
+)
