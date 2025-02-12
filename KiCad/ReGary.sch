@@ -77,7 +77,7 @@ Text Label 7150 950  2    50   ~ 0
 NC1
 Text GLabel 8150 950  2    50   Input ~ 0
 GND
-Text GLabel 2900 6000 2    50   Input ~ 0
+Text GLabel 2750 6000 2    50   Input ~ 0
 GND
 Wire Wire Line
 	8150 950  8150 1050
@@ -385,7 +385,7 @@ Text GLabel 8150 1150 2    50   Output ~ 0
 EBR2_FPGA
 Text GLabel 8150 1250 2    50   Output ~ 0
 EBR3_FPGA
-Text GLabel 2900 5350 2    50   Input ~ 0
+Text GLabel 2750 5350 2    50   Input ~ 0
 VCC
 Text GLabel 8150 2150 2    50   BiDi ~ 0
 BINT_FPGA
@@ -558,9 +558,9 @@ F 3 "" H 4800 3700 50  0001 C CNN
 	1    4800 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 6000 2    50   Input ~ 0
+Text GLabel 5700 6000 2    50   Input ~ 0
 GND
-Text GLabel 5900 5350 2    50   Input ~ 0
+Text GLabel 5700 5350 2    50   Input ~ 0
 VCC
 Text GLabel 9200 5100 0    50   Input ~ 0
 GND
@@ -593,4 +593,24 @@ F 3 "" H 1850 3700 50  0001 C CNN
 	1    1850 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 5450 2750 5350
+Wire Wire Line
+	2750 5700 2750 5800
+Connection ~ 2750 5800
+Wire Wire Line
+	2750 5800 2750 5900
+Connection ~ 2750 5900
+Wire Wire Line
+	2750 5900 2750 6000
+Wire Wire Line
+	5700 5350 5700 5450
+Wire Wire Line
+	5700 5700 5700 5800
+Connection ~ 5700 5800
+Wire Wire Line
+	5700 5800 5700 5900
+Connection ~ 5700 5900
+Wire Wire Line
+	5700 5900 5700 6000
 $EndSCHEMATC

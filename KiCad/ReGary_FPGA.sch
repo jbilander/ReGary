@@ -13,167 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3450 4550 3    50   Input ~ 0
-GND
-Text GLabel 3200 800  1    50   Input ~ 0
-3V3
-$Comp
-L ReGary:10M02SCU169 U1
-U 1 1 60A0E571
-P 3400 3700
-F 0 "U1" H 3400 3750 60  0000 C CNN
-F 1 "10M02SCU169C8G" H 3400 3900 60  0000 C CNN
-F 2 "ReGary:BGA-169_11.0x11.0mm_Layout13x13_P0.8mm_Ball0.5mm_Pad0.35mm_NSMD" H 3400 5900 60  0001 C CNN
-F 3 "" H 950 5800 60  0001 C CNN
-	1    3400 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 800  2900 1250
-Wire Wire Line
-	3400 800  3400 1250
-Wire Wire Line
-	2900 800  3400 800 
-Text GLabel 5850 4750 2    50   Input ~ 0
-EBR3_FPGA
-Text GLabel 5850 2550 2    50   Input ~ 0
-EBR4_FPGA
-Text GLabel 5850 2350 2    50   Output ~ 0
-MS0_FPGA
-Text GLabel 5850 2150 2    50   Output ~ 0
-ABOE1_FPGA
-Text GLabel 5850 1950 2    50   Output ~ 0
-EBG0_FPGA
-Text GLabel 5850 3050 2    50   Output ~ 0
-EBG1_FPGA
-Text GLabel 5850 3250 2    50   BiDi ~ 0
-EDS1_FPGA
-Text GLabel 4700 1250 1    50   BiDi ~ 0
-FCS_FPGA
-Text GLabel 5300 1250 1    50   Output ~ 0
-EBG2_FPGA
-Text GLabel 4500 1250 1    50   Output ~ 0
-EBG3_FPGA
-Text GLabel 4400 1250 1    50   Output ~ 0
-EBG4_FPGA
-Text GLabel 950  1850 0    50   Output ~ 0
-BIGZ_FPGA
-Text GLabel 950  1750 0    50   BiDi ~ 0
-SLAVE0_FPGA
-Text GLabel 950  1650 0    50   BiDi ~ 0
-SLAVE1_FPGA
-Text GLabel 950  2150 0    50   BiDi ~ 0
-SLAVE2_FPGA
-Text GLabel 2750 6150 3    50   Output ~ 0
-DBR16_FPGA
-Text GLabel 950  4750 0    50   Input ~ 0
-WAIT_FPGA
-Text GLabel 950  3550 0    50   BiDi ~ 0
-DOE_FPGA
-Text GLabel 950  4950 0    50   BiDi ~ 0
-DTACK_FPGA
-Text GLabel 950  4350 0    50   BiDi ~ 0
-MTACK_FPGA
-Text GLabel 950  3950 0    50   BiDi ~ 0
-CIIN_FPGA
-Text GLabel 950  4650 0    50   Input ~ 0
-SBR_FPGA
-Text GLabel 950  5550 0    50   BiDi ~ 0
-RMC_FPGA
-Text GLabel 950  5750 0    50   BiDi ~ 0
-CCS_FPGA
-Text GLabel 1550 6150 3    50   BiDi ~ 0
-A2_FPGA
-Text GLabel 1650 6150 3    50   BiDi ~ 0
-A1_FPGA
-Text GLabel 950  4150 0    50   Output ~ 0
-SBG_FPGA
-Text GLabel 3050 6150 3    50   BiDi ~ 0
-RW_FPGA
-Text GLabel 3550 6150 3    50   BiDi ~ 0
-SIZ0_FPGA
-Text GLabel 2850 6150 3    50   BiDi ~ 0
-STERM_FPGA
-Text GLabel 3150 6150 3    50   BiDi ~ 0
-DSACK1_FPGA
-Text GLabel 2450 6150 3    50   Input ~ 0
-DSACK0_FPGA
-Text GLabel 2650 6150 3    50   Output ~ 0
-DS_FPGA
-Text GLabel 2950 6150 3    50   BiDi ~ 0
-AS_FPGA
-Text GLabel 950  2050 0    50   BiDi ~ 0
-SLAVE3_FPGA
-Text GLabel 4900 1250 1    50   Output ~ 0
-EBCLR_FPGA
-Text GLabel 950  3050 0    50   BiDi ~ 0
-EDS0_FPGA
-Text GLabel 5850 3550 2    50   BiDi ~ 0
-EA3_FPGA
-Text GLabel 5000 1250 1    50   BiDi ~ 0
-EA2_FPGA
-Text GLabel 5850 4250 2    50   BiDi ~ 0
-EBGACK_FPGA
-Text GLabel 5850 2050 2    50   BiDi ~ 0
-OWN_FPGA
-Text GLabel 5850 2450 2    50   Input ~ 0
-MS1_FPGA
-Text GLabel 5850 1850 2    50   Input ~ 0
-ADDRZ3_FPGA
-Text GLabel 5850 4450 2    50   Input ~ 0
-MEMZ2_FPGA
-Text GLabel 5850 5250 2    50   Input ~ 0
-IOZ2_FPGA
-Text GLabel 5850 5650 2    50   Output ~ 0
-CBACK_FPGA
-Text GLabel 5850 3850 2    50   Input ~ 0
-CLK90_FPGA
-Text GLabel 5850 4350 2    50   Output ~ 0
-ABOE0_FPGA
-Text GLabel 5050 6150 3    50   Input ~ 0
-MS2_FPGA
-Text GLabel 5850 4050 2    50   BiDi ~ 0
-MTCR_FPGA
-Text GLabel 5850 5050 2    50   BiDi ~ 0
-CINH_FPGA
-Text GLabel 5850 4550 2    50   BiDi ~ 0
-A3_FPGA
-Text GLabel 5850 5150 2    50   Input ~ 0
-CBREQ_FPGA
-Text GLabel 4050 6150 3    50   Output ~ 0
-SIZ1_FPGA
-Text GLabel 4250 6150 3    50   Output ~ 0
-DBOE0_FPGA
-Text GLabel 4850 6150 3    50   BiDi ~ 0
-READ_FPGA
-Text GLabel 4450 6150 3    50   BiDi ~ 0
-EDS2_FPGA
-Text GLabel 4150 6150 3    50   BiDi ~ 0
-EDS3_FPGA
-Text GLabel 5850 3650 2    50   Input ~ 0
-CDAC_FPGA
-Text GLabel 3750 6150 3    50   BiDi ~ 0
-LOCK_EA1_FPGA
-Text GLabel 3650 6150 3    50   Output ~ 0
-ABOE2_FPGA
-Text GLabel 2250 6150 3    50   Output ~ 0
-DBOE1_FPGA
-Text GLabel 2050 6150 3    50   Output ~ 0
-D2P_FPGA
-Text GLabel 4650 6150 3    50   Output ~ 0
-DBLT_FPGA
-Text GLabel 950  5350 0    50   BiDi ~ 0
-RESET_FPGA
-Text GLabel 950  5250 0    50   Input ~ 0
-HLT_FPGA
-Text GLabel 950  4050 0    50   Input ~ 0
-CPUCLK_FPGA
-Text GLabel 950  4550 0    50   BiDi ~ 0
-BGACK_FPGA
-Text GLabel 950  3250 0    50   Output ~ 0
-BG_FPGA
-Text GLabel 950  3750 0    50   BiDi ~ 0
-BR_FPGA
 $Comp
 L ReGary:LM1117-3.3 U2
 U 1 1 60C4BF35
@@ -226,14 +65,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 1500 7700 1500
 Connection ~ 7700 1500
-Text GLabel 950  2550 0    50   Input ~ 0
-TMS
-Text GLabel 950  2750 0    50   Input ~ 0
-TCK
-Text GLabel 950  2850 0    50   Input ~ 0
-TDI
-Text GLabel 950  2950 0    50   Input ~ 0
-TDO
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even JTAG1
 U 1 1 60C7D841
@@ -330,30 +161,6 @@ Wire Wire Line
 	7950 3900 8300 3900
 Text GLabel 7250 4600 0    50   Input ~ 0
 3V3
-Text GLabel 5850 2650 2    50   Input ~ 0
-nCONFIG
-Text GLabel 4800 1250 1    50   Input ~ 0
-nSTATUS
-Text GLabel 4600 1250 1    50   Input ~ 0
-CONF_DONE
-Text GLabel 950  3350 0    50   Input ~ 0
-3V3
-Text GLabel 950  3650 0    50   Input ~ 0
-C7M_FPGA
-NoConn ~ 2150 6150
-NoConn ~ 2350 6150
-NoConn ~ 2550 6150
-NoConn ~ 3350 6150
-NoConn ~ 3850 6150
-NoConn ~ 3950 6150
-NoConn ~ 4350 6150
-NoConn ~ 4550 6150
-NoConn ~ 4750 6150
-NoConn ~ 4950 6150
-NoConn ~ 5150 6150
-NoConn ~ 5250 6150
-NoConn ~ 5850 5750
-NoConn ~ 5850 5550
 Connection ~ 8300 3600
 Wire Wire Line
 	9000 3900 9350 3900
@@ -498,8 +305,6 @@ Text GLabel 10450 1250 3    50   Input ~ 0
 JP1
 Wire Wire Line
 	10350 850  10450 850 
-Text GLabel 950  1950 0    50   Input ~ 0
-JP1
 $Comp
 L Device:C C?
 U 1 1 608291F3
@@ -634,86 +439,32 @@ Wire Wire Line
 Connection ~ 8100 1500
 Wire Wire Line
 	8100 1500 8500 1500
-Text GLabel 3250 6850 0    50   Input ~ 0
+Text GLabel 7500 2600 0    50   Input ~ 0
 TP1
 Wire Wire Line
 	10550 2300 10650 2300
 Connection ~ 10550 2300
-Text GLabel 5850 2750 2    50   Input ~ 0
-GND
-Text GLabel 5850 4850 2    50   Input ~ 0
-GND
-Text GLabel 5850 5450 2    50   Input ~ 0
-GND
-Text GLabel 5850 4650 2    50   Input ~ 0
-GND
-Text GLabel 5200 1250 1    50   Input ~ 0
-GND
-NoConn ~ 5100 1250
-Text GLabel 950  3150 0    50   Input ~ 0
-3V3
-Text GLabel 950  3450 0    50   Input ~ 0
-3V3
-Text GLabel 1750 6150 3    50   Output ~ 0
-BERR_FPGA
-Text GLabel 5850 2250 2    50   Input ~ 0
-EBR0_FPGA
-Text GLabel 5850 4950 2    50   Input ~ 0
-EBR1_FPGA
-Text GLabel 5850 5350 2    50   Input ~ 0
-EBR2_FPGA
 $Comp
 L Connector:TestPoint_Small TP1
 U 1 1 655D4DC6
-P 3250 6950
-F 0 "TP1" H 3298 6950 50  0000 L CNN
-F 1 "TestPoint_Small" H 3298 6905 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3450 6950 50  0001 C CNN
-F 3 "~" H 3450 6950 50  0001 C CNN
-	1    3250 6950
+P 7500 2700
+F 0 "TP1" H 7548 2700 50  0000 L CNN
+F 1 "TestPoint_Small" H 7548 2655 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7700 2700 50  0001 C CNN
+F 3 "~" H 7700 2700 50  0001 C CNN
+	1    7500 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5850 2950 2    50   Input ~ 0
-GND
 Wire Wire Line
 	10650 2300 10750 2300
 Connection ~ 10650 2300
-Text GLabel 5850 3150 2    50   Input ~ 0
-nCONFIG
-Text GLabel 950  4250 0    50   Input ~ 0
-GND
-Text GLabel 950  4450 0    50   Input ~ 0
-GND
-Text GLabel 5850 3750 2    50   Input ~ 0
-GND
-Text GLabel 5850 3950 2    50   Input ~ 0
-GND
-Text GLabel 5850 4150 2    50   Input ~ 0
-GND
-Text GLabel 950  5650 0    50   Input ~ 0
-GND
-Text GLabel 1950 6150 3    50   Input ~ 0
-GND
 Wire Wire Line
 	10450 850  10550 850 
 Connection ~ 10450 850 
 Wire Wire Line
 	10550 1250 10550 1850
 NoConn ~ 10450 2700
-NoConn ~ 950  2650
-Text GLabel 950  2350 0    50   Input ~ 0
-GND
 NoConn ~ 9750 1750
-Text GLabel 950  4850 0    50   Input ~ 0
-GND
-NoConn ~ 950  2250
-NoConn ~ 950  2450
-Text GLabel 1850 6150 3    50   BiDi ~ 0
-A0_FPGA
-Text GLabel 5850 2850 2    50   BiDi ~ 0
-BINT_FPGA
-Text GLabel 5850 3350 2    50   BiDi ~ 0
-SLAVE4_FPGA
 $Comp
 L Device:C C?
 U 1 1 60785965
@@ -749,122 +500,4 @@ Connection ~ 7600 5300
 Connection ~ 7950 5300
 Wire Wire Line
 	7950 5300 8300 5300
-Wire Wire Line
-	3250 6150 3250 6950
-Text GLabel 950  3850 0    50   Input ~ 0
-3V3
-Text GLabel 950  5050 0    50   Input ~ 0
-GND
-Text GLabel 950  5450 0    50   Input ~ 0
-GND
-NoConn ~ 950  5150
-NoConn ~ 3450 6150
-NoConn ~ 5850 3450
-Wire Wire Line
-	1600 1250 1700 1250
-Connection ~ 2900 1250
-Connection ~ 1700 1250
-Wire Wire Line
-	1700 1250 1800 1250
-Connection ~ 1800 1250
-Wire Wire Line
-	1800 1250 1900 1250
-Connection ~ 1900 1250
-Wire Wire Line
-	1900 1250 2000 1250
-Connection ~ 2000 1250
-Wire Wire Line
-	2000 1250 2100 1250
-Connection ~ 2100 1250
-Wire Wire Line
-	2100 1250 2200 1250
-Connection ~ 2200 1250
-Wire Wire Line
-	2200 1250 2300 1250
-Connection ~ 2300 1250
-Wire Wire Line
-	2300 1250 2400 1250
-Connection ~ 2400 1250
-Wire Wire Line
-	2400 1250 2500 1250
-Connection ~ 2500 1250
-Wire Wire Line
-	2500 1250 2600 1250
-Connection ~ 2600 1250
-Wire Wire Line
-	2600 1250 2700 1250
-Connection ~ 2700 1250
-Wire Wire Line
-	2700 1250 2800 1250
-Connection ~ 2800 1250
-Wire Wire Line
-	2800 1250 2900 1250
-Wire Wire Line
-	3400 1250 3500 1250
-Connection ~ 3400 1250
-Connection ~ 3500 1250
-Wire Wire Line
-	3500 1250 3600 1250
-Connection ~ 3600 1250
-Wire Wire Line
-	3600 1250 3700 1250
-Connection ~ 3700 1250
-Wire Wire Line
-	3700 1250 3800 1250
-Connection ~ 3800 1250
-Wire Wire Line
-	3800 1250 3900 1250
-Connection ~ 3900 1250
-Wire Wire Line
-	3900 1250 4000 1250
-Connection ~ 4000 1250
-Wire Wire Line
-	4000 1250 4100 1250
-Connection ~ 4100 1250
-Wire Wire Line
-	4100 1250 4200 1250
-Wire Wire Line
-	2800 4550 2900 4550
-Connection ~ 2900 4550
-Wire Wire Line
-	2900 4550 3000 4550
-Connection ~ 3000 4550
-Wire Wire Line
-	3000 4550 3100 4550
-Connection ~ 3100 4550
-Wire Wire Line
-	3100 4550 3200 4550
-Connection ~ 3200 4550
-Wire Wire Line
-	3200 4550 3300 4550
-Connection ~ 3300 4550
-Wire Wire Line
-	3300 4550 3400 4550
-Connection ~ 3400 4550
-Wire Wire Line
-	3400 4550 3500 4550
-Connection ~ 3500 4550
-Wire Wire Line
-	3500 4550 3600 4550
-Connection ~ 3600 4550
-Wire Wire Line
-	3600 4550 3700 4550
-Connection ~ 3700 4550
-Wire Wire Line
-	3700 4550 3800 4550
-Connection ~ 3800 4550
-Wire Wire Line
-	3800 4550 3900 4550
-Connection ~ 3900 4550
-Wire Wire Line
-	3900 4550 4000 4550
-Connection ~ 4000 4550
-Wire Wire Line
-	4000 4550 4100 4550
-Connection ~ 4100 4550
-Wire Wire Line
-	4100 4550 4200 4550
-Connection ~ 4200 4550
-Wire Wire Line
-	4200 4550 4300 4550
 $EndSCHEMATC
