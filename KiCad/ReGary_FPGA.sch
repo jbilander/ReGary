@@ -65,20 +65,8 @@ Wire Wire Line
 Wire Wire Line
 	7550 1500 7700 1500
 Connection ~ 7700 1500
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even JTAG1
-U 1 1 60C7D841
-P 9550 1850
-F 0 "JTAG1" H 9600 1425 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9600 1516 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 9550 1850 50  0001 C CNN
-F 3 "~" H 9550 1850 50  0001 C CNN
-	1    9550 1850
-	-1   0    0    1   
-$EndComp
 Text GLabel 9250 1650 0    50   Input ~ 0
 GND
-NoConn ~ 9250 1850
 Text GLabel 9250 1950 0    50   Input ~ 0
 3V3
 Text GLabel 9250 2050 0    50   Input ~ 0
@@ -464,7 +452,6 @@ Connection ~ 10450 850
 Wire Wire Line
 	10550 1250 10550 1850
 NoConn ~ 10450 2700
-NoConn ~ 9750 1750
 $Comp
 L Device:C C?
 U 1 1 60785965
@@ -547,4 +534,27 @@ Text GLabel 4300 2100 1    50   Input ~ 0
 GND
 Text GLabel 3000 2100 1    50   Input ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JTAG1
+U 1 1 67CA7A4E
+P 9450 2650
+F 0 "JTAG1" H 9500 2967 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9500 2876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical_SMD" H 9450 2650 50  0001 C CNN
+F 3 "~" H 9450 2650 50  0001 C CNN
+	1    9450 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 2550 0    50   Output ~ 0
+TCK
+Text GLabel 9250 2650 0    50   Input ~ 0
+TDO
+Text GLabel 9250 2750 0    50   Output ~ 0
+TMS
+Text GLabel 9750 2550 2    50   Input ~ 0
+GND
+Text GLabel 9750 2650 2    50   Output ~ 0
+TDI
+Text GLabel 9750 2750 2    50   Input ~ 0
+3V3
 $EndSCHEMATC
