@@ -82,10 +82,10 @@ GND
 Wire Wire Line
 	8150 950  8150 1050
 $Comp
-L ReGary:SN74CBTD16210 U4
+L ReGary:SN74CBTD16210 U5
 U 1 1 605AF950
 P 9700 2050
-F 0 "U4" H 9700 3417 50  0000 C CNN
+F 0 "U5" H 9700 3417 50  0000 C CNN
 F 1 "SN74CBT16210" H 9700 3326 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 11350 2500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 11350 2500 50  0001 C CNN
@@ -93,10 +93,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 11350 2500 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L ReGary:SN74CBTD16210 U5
+L ReGary:SN74CBTD16210 U6
 U 1 1 605B82D1
 P 7650 4900
-F 0 "U5" H 7650 6267 50  0000 C CNN
+F 0 "U6" H 7650 6267 50  0000 C CNN
 F 1 "SN74CBT16210" H 7650 6176 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 9300 5350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 5350 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 5350 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L ReGary:SN74CBTD16210 U6
+L ReGary:SN74CBTD16210 U7
 U 1 1 605BA8E0
 P 9700 4900
-F 0 "U6" H 9700 6267 50  0000 C CNN
+F 0 "U7" H 9700 6267 50  0000 C CNN
 F 1 "SN74CBT16210" H 9700 6176 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 11350 5350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 11350 5350 50  0001 C CNN
@@ -139,10 +139,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 3900 8150 3800
 $Comp
-L ReGary:SN74CBTD16210 U3
+L ReGary:SN74CBTD16210 U4
 U 1 1 6058DC08
 P 7650 2050
-F 0 "U3" H 7650 3417 50  0000 C CNN
+F 0 "U4" H 7650 3417 50  0000 C CNN
 F 1 "SN74CBT16210" H 7650 3326 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 9300 2500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 2500 50  0001 C CNN
@@ -538,10 +538,10 @@ EBCLR
 Text GLabel 7150 4100 0    50   BiDi ~ 0
 EDS0
 $Comp
-L ReGary:Fat_Gary_socket U8
+L ReGary:Fat_Gary_socket U9
 U 1 1 67490817
 P 4800 3500
-F 0 "U8" H 4800 3400 50  0000 C CNN
+F 0 "U9" H 4800 3400 50  0000 C CNN
 F 1 "PLCC_84_plug" H 4800 3500 50  0000 C CNN
 F 2 "ReGary:PLCC-84_TH_pin_holes" H 5200 6000 50  0001 L CIN
 F 3 "" H 4800 3700 50  0001 C CNN
@@ -573,10 +573,10 @@ F0 "ReGary_FPGA" 50
 F1 "ReGary_FPGA.sch" 50
 $EndSheet
 $Comp
-L ReGary:Fat_Gary_socket U7
+L ReGary:Fat_Gary_socket U8
 U 1 1 67BAA3CA
 P 1850 3500
-F 0 "U7" H 1850 3400 50  0000 C CNN
+F 0 "U8" H 1850 3400 50  0000 C CNN
 F 1 "PLCC_84_plug" H 1850 3500 50  0000 C CNN
 F 2 "ReGary:PLCC-84_Plug_P1.27mm_mirrored" H 2250 6000 50  0001 L CIN
 F 3 "" H 1850 3700 50  0001 C CNN
