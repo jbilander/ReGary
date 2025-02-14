@@ -86,7 +86,7 @@ L ReGary:SN74CBTD16210 U4
 U 1 1 605AF950
 P 9700 2050
 F 0 "U4" H 9700 3417 50  0000 C CNN
-F 1 "SN74CBTD16210" H 9700 3326 50  0000 C CNN
+F 1 "SN74CBT16210" H 9700 3326 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 11350 2500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 11350 2500 50  0001 C CNN
 	1    9700 2050
@@ -97,7 +97,7 @@ L ReGary:SN74CBTD16210 U5
 U 1 1 605B82D1
 P 7650 4900
 F 0 "U5" H 7650 6267 50  0000 C CNN
-F 1 "SN74CBTD16210" H 7650 6176 50  0000 C CNN
+F 1 "SN74CBT16210" H 7650 6176 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 9300 5350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 5350 50  0001 C CNN
 	1    7650 4900
@@ -108,7 +108,7 @@ L ReGary:SN74CBTD16210 U6
 U 1 1 605BA8E0
 P 9700 4900
 F 0 "U6" H 9700 6267 50  0000 C CNN
-F 1 "SN74CBTD16210" H 9700 6176 50  0000 C CNN
+F 1 "SN74CBT16210" H 9700 6176 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 11350 5350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 11350 5350 50  0001 C CNN
 	1    9700 4900
@@ -130,8 +130,6 @@ Wire Wire Line
 Connection ~ 2500 7150
 Wire Wire Line
 	2500 7150 2850 7150
-Text GLabel 7150 2350 0    50   Input ~ 0
-VCC
 Connection ~ 2850 6850
 Connection ~ 2850 7150
 Wire Wire Line
@@ -145,7 +143,7 @@ L ReGary:SN74CBTD16210 U3
 U 1 1 6058DC08
 P 7650 2050
 F 0 "U3" H 7650 3417 50  0000 C CNN
-F 1 "SN74CBTD16210" H 7650 3326 50  0000 C CNN
+F 1 "SN74CBT16210" H 7650 3326 50  0000 C CNN
 F 2 "ReGary:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 9300 2500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 2500 50  0001 C CNN
 	1    7650 2050
@@ -171,14 +169,10 @@ Text GLabel 8150 3800 2    50   Input ~ 0
 GND
 Text GLabel 8150 4500 2    50   Input ~ 0
 GND
-Text GLabel 9200 2350 0    50   Input ~ 0
-VCC
 Text GLabel 9200 1650 0    50   Input ~ 0
 GND
 Text GLabel 9200 2550 0    50   Input ~ 0
 GND
-Text GLabel 9200 5200 0    50   Input ~ 0
-VCC
 Text GLabel 9200 4500 0    50   Input ~ 0
 GND
 Text GLabel 9200 5400 0    50   Input ~ 0
@@ -187,8 +181,6 @@ Text GLabel 7150 5400 0    50   Input ~ 0
 GND
 Text GLabel 7150 4500 0    50   Input ~ 0
 GND
-Text GLabel 7150 5200 0    50   Input ~ 0
-VCC
 Text GLabel 10200 3250 2    50   BiDi ~ 0
 SIZ1_FPGA
 Text GLabel 8150 1450 2    50   Output ~ 0
@@ -329,8 +321,6 @@ Wire Wire Line
 	2850 6850 3200 6850
 Wire Wire Line
 	2850 7150 3200 7150
-Text GLabel 2150 7150 0    50   Input ~ 0
-VCC
 Text Notes 2300 6750 0    50   ~ 0
 0603
 $Comp
@@ -613,4 +603,14 @@ Wire Wire Line
 Connection ~ 5700 5900
 Wire Wire Line
 	5700 5900 5700 6000
+Text GLabel 7150 2350 0    50   Input ~ 0
+4V3
+Text GLabel 9200 2350 0    50   Input ~ 0
+4V3
+Text GLabel 7150 5200 0    50   Input ~ 0
+4V3
+Text GLabel 9200 5200 0    50   Input ~ 0
+4V3
+Text GLabel 2150 7150 0    50   Input ~ 0
+4V3
 $EndSCHEMATC

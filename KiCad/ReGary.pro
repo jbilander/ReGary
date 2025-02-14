@@ -1,4 +1,4 @@
-update=2023 October 11, Wednesday 13:53:33
+update=2025 February 14, Friday 09:50:27
 version=1
 last_client=kicad
 [general]
@@ -94,7 +94,7 @@ Name=GND.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=VCC.Cu
+Name=4V3.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
