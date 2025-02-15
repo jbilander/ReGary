@@ -69,13 +69,13 @@ Text GLabel 9250 1650 0    50   Input ~ 0
 GND
 Text GLabel 9250 1950 0    50   Input ~ 0
 3V3
-Text GLabel 9250 2050 0    50   Input ~ 0
+Text GLabel 8800 2350 1    50   Input ~ 0
 GND
-Text GLabel 10350 1500 0    50   Input ~ 0
+Text GLabel 2800 2100 1    50   Input ~ 0
 TDI
-Text GLabel 10550 1550 2    50   Input ~ 0
+Text GLabel 3200 2100 1    50   Input ~ 0
 TMS
-Text GLabel 9750 1950 2    50   Input ~ 0
+Text GLabel 2700 2100 1    50   Output ~ 0
 TDO
 Text GLabel 10350 850  1    50   Input ~ 0
 3V3
@@ -195,7 +195,7 @@ Text GLabel 10650 850  1    50   Input ~ 0
 GND
 Text GLabel 10650 1250 3    50   Input ~ 0
 TCK
-Text GLabel 9750 2050 2    50   Input ~ 0
+Text GLabel 3100 2100 1    50   Input ~ 0
 TCK
 $Comp
 L Device:C C?
@@ -517,7 +517,7 @@ F 3 "~" H 9450 2650 50  0001 C CNN
 	1    9450 2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 9250 2550 0    50   Output ~ 0
+Text GLabel 8600 2550 0    50   Output ~ 0
 TCK
 Text GLabel 9250 2650 0    50   Input ~ 0
 TDO
@@ -609,4 +609,20 @@ Wire Wire Line
 Connection ~ 7600 5450
 Wire Wire Line
 	7600 5450 7950 5450
+$Comp
+L Device:R_Small R1
+U 1 1 67F65041
+P 8800 2450
+F 0 "R1" H 8859 2496 50  0000 L CNN
+F 1 "4k7" H 8859 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8800 2450 50  0001 C CNN
+F 3 "~" H 8800 2450 50  0001 C CNN
+	1    8800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2550 8800 2550
+Connection ~ 8800 2550
+Wire Wire Line
+	8800 2550 8600 2550
 $EndSCHEMATC
