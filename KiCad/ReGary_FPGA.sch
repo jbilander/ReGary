@@ -69,14 +69,8 @@ Text GLabel 9250 1650 0    50   Input ~ 0
 GND
 Text GLabel 9250 1950 0    50   Input ~ 0
 3V3
-Text GLabel 8800 2350 1    50   Input ~ 0
+Text GLabel 8400 2350 1    50   Input ~ 0
 GND
-Text GLabel 2800 2100 1    50   Input ~ 0
-TDI
-Text GLabel 3200 2100 1    50   Input ~ 0
-TMS
-Text GLabel 2700 2100 1    50   Output ~ 0
-TDO
 Text GLabel 10350 850  1    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -177,12 +171,6 @@ F 3 "~" H 10650 2500 50  0001 C CNN
 	1    10650 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 10650 2700 3    50   Input ~ 0
-CONF_DONE
-Text GLabel 10550 2700 3    50   Input ~ 0
-nSTATUS
-Text GLabel 10750 2700 3    50   Input ~ 0
-nCONFIG
 Text GLabel 10450 2300 1    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -194,8 +182,6 @@ Wire Wire Line
 Text GLabel 10650 850  1    50   Input ~ 0
 GND
 Text GLabel 10650 1250 3    50   Input ~ 0
-TCK
-Text GLabel 3100 2100 1    50   Input ~ 0
 TCK
 $Comp
 L Device:C C?
@@ -399,7 +385,7 @@ F 3 "~" H 3450 1150 50  0001 C CNN
 	1    3450 1150
 	-1   0    0    1   
 $EndComp
-Text GLabel 7500 2600 0    50   Input ~ 0
+Text GLabel 7250 2850 0    50   Input ~ 0
 TP1
 Wire Wire Line
 	10550 2300 10650 2300
@@ -407,12 +393,12 @@ Connection ~ 10550 2300
 $Comp
 L Connector:TestPoint_Small TP1
 U 1 1 655D4DC6
-P 7500 2700
-F 0 "TP1" H 7548 2700 50  0000 L CNN
-F 1 "TestPoint_Small" H 7548 2655 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7700 2700 50  0001 C CNN
-F 3 "~" H 7700 2700 50  0001 C CNN
-	1    7500 2700
+P 7250 2950
+F 0 "TP1" H 7298 2950 50  0000 L CNN
+F 1 "TestPoint_Small" H 7298 2905 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7450 2950 50  0001 C CNN
+F 3 "~" H 7450 2950 50  0001 C CNN
+	1    7250 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -423,7 +409,6 @@ Wire Wire Line
 Connection ~ 10450 850 
 Wire Wire Line
 	10550 1250 10550 1850
-NoConn ~ 10450 2700
 $Comp
 L Device:C_Small C?
 U 1 1 60785965
@@ -509,25 +494,17 @@ GND
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JTAG1
 U 1 1 67CA7A4E
-P 9450 2650
-F 0 "JTAG1" H 9500 2967 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 9500 2876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical_SMD" H 9450 2650 50  0001 C CNN
-F 3 "~" H 9450 2650 50  0001 C CNN
-	1    9450 2650
+P 9050 2650
+F 0 "JTAG1" H 9100 2967 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9100 2876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical_SMD" H 9050 2650 50  0001 C CNN
+F 3 "~" H 9050 2650 50  0001 C CNN
+	1    9050 2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 2550 0    50   Output ~ 0
-TCK
-Text GLabel 9250 2650 0    50   Input ~ 0
-TDO
-Text GLabel 9250 2750 0    50   Output ~ 0
-TMS
-Text GLabel 9750 2550 2    50   Input ~ 0
+Text GLabel 9350 2550 2    50   Input ~ 0
 GND
-Text GLabel 9750 2650 2    50   Output ~ 0
-TDI
-Text GLabel 9750 2750 2    50   Input ~ 0
+Text GLabel 9350 2750 2    50   Input ~ 0
 3V3
 $Comp
 L Regulator_Linear:TPS73643DBV U3
@@ -547,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 1500 8500 1500
 Wire Wire Line
-	3450 1350 4050 1350
+	3450 1350 3900 1350
 Text GLabel 4050 1350 3    50   Input ~ 0
 GND
 Text GLabel 5100 950  2    50   Output ~ 0
@@ -612,23 +589,69 @@ Wire Wire Line
 $Comp
 L Device:R_Small R1
 U 1 1 67F65041
-P 8800 2450
-F 0 "R1" H 8859 2496 50  0000 L CNN
-F 1 "4k7" H 8859 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8800 2450 50  0001 C CNN
-F 3 "~" H 8800 2450 50  0001 C CNN
-	1    8800 2450
+P 8400 2450
+F 0 "R1" H 8459 2496 50  0000 L CNN
+F 1 "4k7" H 8459 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8400 2450 50  0001 C CNN
+F 3 "~" H 8400 2450 50  0001 C CNN
+	1    8400 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 2550 8800 2550
-Connection ~ 8800 2550
+	8850 2550 8400 2550
+Connection ~ 8400 2550
 Wire Wire Line
-	8800 2550 8600 2550
+	8400 2550 8200 2550
 Wire Wire Line
 	8300 5150 8650 5150
 Connection ~ 8300 5150
 Wire Wire Line
 	8300 5450 8650 5450
 Connection ~ 8300 5450
+Text GLabel 4000 1700 2    50   Input ~ 0
+JTAGSEL_N
+Text GLabel 10450 2700 3    50   Input ~ 0
+JTAGSEL_N
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 67FA6DF8
+P 3700 1700
+F 0 "J1" H 3618 1467 50  0000 C CNN
+F 1 "Conn_01x02" H 3618 1466 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 3700 1700 50  0001 C CNN
+F 3 "~" H 3700 1700 50  0001 C CNN
+	1    3700 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 2100 4100 1850
+Wire Wire Line
+	4100 1850 4200 1850
+Text GLabel 4200 1850 2    50   Input ~ 0
+RECONFIG_N
+Wire Wire Line
+	4000 2100 4000 1700
+Wire Wire Line
+	3900 1700 4000 1700
+Wire Wire Line
+	3900 1600 3900 1350
+Connection ~ 3900 1350
+Wire Wire Line
+	3900 1350 4050 1350
+Text GLabel 2800 2100 1    50   BiDi ~ 0
+UMDS_TDI_FPGA
+Text GLabel 9350 2650 2    50   Output ~ 0
+UMDS_TDI_FPGA
+Text GLabel 8850 2650 0    50   Input ~ 0
+LMDS_TDO_FPGA
+Text GLabel 2700 2100 1    50   Output ~ 0
+LMDS_TDO_FPGA
+Text GLabel 8200 2550 0    50   Output ~ 0
+LADR_TCK_FPGA
+Text GLabel 3100 2100 1    50   Input ~ 0
+LADR_TCK_FPGA
+Text GLabel 8850 2750 0    50   Output ~ 0
+LLDS_TMS_FPGA
+Text GLabel 3200 2100 1    50   Input ~ 0
+LLDS_TMS_FPGA
 $EndSCHEMATC

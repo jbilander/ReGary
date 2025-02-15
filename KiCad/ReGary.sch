@@ -183,8 +183,6 @@ Text GLabel 7150 4500 0    50   Input ~ 0
 GND
 Text GLabel 10200 3250 2    50   BiDi ~ 0
 SIZ1_FPGA
-Text GLabel 8150 1450 2    50   Output ~ 0
-EBR4_FPGA
 Text GLabel 8150 1750 2    50   Output ~ 0
 MS0_FPGA
 Text GLabel 8150 1950 2    50   Input ~ 0
@@ -369,12 +367,6 @@ F 3 "~" H 2150 7000 50  0001 C CNN
 $EndComp
 Text GLabel 8150 1850 2    50   Input ~ 0
 ABOE1_FPGA
-Text GLabel 8150 1350 2    50   Output ~ 0
-EBR1_FPGA
-Text GLabel 8150 1150 2    50   Output ~ 0
-EBR2_FPGA
-Text GLabel 8150 1250 2    50   Output ~ 0
-EBR3_FPGA
 Text GLabel 2750 5350 2    50   Input ~ 0
 VCC
 Text GLabel 8150 2150 2    50   BiDi ~ 0
@@ -503,14 +495,6 @@ Text GLabel 7150 1550 0    50   Input ~ 0
 MS0
 Text GLabel 7150 1450 0    50   Input ~ 0
 EBR0
-Text GLabel 7150 1250 0    50   Input ~ 0
-EBR1
-Text GLabel 7150 1050 0    50   Input ~ 0
-EBR2
-Text GLabel 7150 1150 0    50   Input ~ 0
-EBR3
-Text GLabel 7150 1350 0    50   Input ~ 0
-EBR4
 Text GLabel 7150 1750 0    50   Output ~ 0
 ABOE1
 Text GLabel 7150 1850 0    50   Output ~ 0
@@ -613,4 +597,40 @@ Text GLabel 9200 5200 0    50   Input ~ 0
 4V3
 Text GLabel 2150 7150 0    50   Input ~ 0
 4V3
+Text GLabel 2750 4350 2    50   Input ~ 0
+UMDS
+Text GLabel 5700 4350 2    50   Input ~ 0
+UMDS
+Text GLabel 7150 1050 0    50   Output ~ 0
+UMDS
+Text GLabel 8150 1150 2    50   Input ~ 0
+UMDS_TDI_FPGA
+Text GLabel 2750 4250 2    50   Input ~ 0
+LMDS
+Text GLabel 5700 4250 2    50   Input ~ 0
+LMDS
+Text GLabel 7150 1150 0    50   Output ~ 0
+LMDS
+Text GLabel 8150 1250 2    50   Input ~ 0
+LMDS_TDO_FPGA
+Text GLabel 2750 4450 2    50   Input ~ 0
+UUDS
+Text GLabel 5700 4450 2    50   Input ~ 0
+UUDS
+Text GLabel 2750 3750 2    50   Input ~ 0
+LADR
+Text GLabel 5700 3750 2    50   Input ~ 0
+LADR
+Text GLabel 7150 1250 0    50   Output ~ 0
+LADR
+Text GLabel 8150 1350 2    50   Input ~ 0
+LADR_TCK_FPGA
+Text GLabel 2750 4150 2    50   Input ~ 0
+LLDS
+Text GLabel 5700 4150 2    50   Input ~ 0
+LLDS
+Text GLabel 7150 1350 0    50   Output ~ 0
+LLDS
+Text GLabel 8150 1450 2    50   Input ~ 0
+LLDS_TMS_FPGA
 $EndSCHEMATC
