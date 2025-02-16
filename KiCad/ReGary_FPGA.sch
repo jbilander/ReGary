@@ -670,12 +670,6 @@ Text GLabel 5450 4150 2    50   Input ~ 0
 GCLKT_2
 Text GLabel 3400 6200 3    50   Input ~ 0
 GCLKT_3
-Text GLabel 3000 6200 3    50   Input ~ 0
-GCLKT_4
-Text GLabel 1350 4850 0    50   Input ~ 0
-GCLKT_5
-Text GLabel 1350 3150 0    50   Input ~ 0
-GCLKT_7
 Text GLabel 1350 4150 0    50   Input ~ 0
 XCLKEN_FPGA
 Text Label 1350 3950 2    50   ~ 0
@@ -686,4 +680,18 @@ Text GLabel 1350 3250 0    50   Output ~ 0
 STERM_FPGA
 Text GLabel 1350 3050 0    50   Input ~ 0
 BIGZ_FPGA
+Text GLabel 1350 3850 0    50   BiDi ~ 0
+D31_FPGA
+Text GLabel 1350 3150 0    50   Input ~ 0
+CLK90_FPGA
+Text GLabel 2300 2100 1    50   Input ~ 0
+TEST_FPGA
+Text GLabel 1350 4850 0    50   Input ~ 0
+C7M_FPGA
+Text GLabel 3000 6200 3    50   Input ~ 0
+CDAC_FPGA
+Text GLabel 3600 2100 1    50   Input ~ 0
+C1_FPGA
+Text GLabel 1350 3750 0    50   Output ~ 0
+ECLK_FPGA
 $EndSCHEMATC

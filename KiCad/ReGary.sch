@@ -187,20 +187,6 @@ Text GLabel 8150 1750 2    50   Input ~ 0
 UUDS_FPGA
 Text GLabel 8150 1950 2    50   Output ~ 0
 DS_FPGA
-Text GLabel 8150 2650 2    50   Input ~ 0
-EBG2_FPGA
-Text GLabel 8150 2750 2    50   Input ~ 0
-EBG3_FPGA
-Text GLabel 8150 2850 2    50   Input ~ 0
-EBG4_FPGA
-Text GLabel 8150 2950 2    50   Input ~ 0
-BIGZ_FPGA
-Text GLabel 8150 3050 2    50   BiDi ~ 0
-SLAVE0_FPGA
-Text GLabel 8150 3150 2    50   BiDi ~ 0
-SLAVE1_FPGA
-Text GLabel 8150 3250 2    50   BiDi ~ 0
-SLAVE2_FPGA
 Text GLabel 10200 1150 2    50   Output ~ 0
 WAIT_FPGA
 Text GLabel 10200 1250 2    50   BiDi ~ 0
@@ -477,20 +463,6 @@ Text GLabel 7150 4300 0    50   BiDi ~ 0
 EA2
 Text GLabel 7150 4200 0    50   BiDi ~ 0
 EA3
-Text GLabel 7150 2650 0    50   Output ~ 0
-EBG2
-Text GLabel 7150 2750 0    50   Output ~ 0
-EBG3
-Text GLabel 7150 2850 0    50   Output ~ 0
-EBG4
-Text GLabel 7150 2950 0    50   Output ~ 0
-BIGZ
-Text GLabel 7150 3050 0    50   BiDi ~ 0
-SLAVE0
-Text GLabel 7150 3150 0    50   BiDi ~ 0
-SLAVE1
-Text GLabel 7150 3250 0    50   BiDi ~ 0
-SLAVE2
 Text GLabel 7150 3900 0    50   BiDi ~ 0
 SLAVE3
 Text GLabel 7150 4000 0    50   Output ~ 0
@@ -694,7 +666,7 @@ Text GLabel 7150 2450 0    50   Output ~ 0
 STERM
 Text GLabel 8150 2450 2    50   Input ~ 0
 STERM_FPGA
-Text GLabel 6400 2900 2    50   BiDi ~ 0
+Text GLabel 7150 2650 0    50   BiDi ~ 0
 D31
 Text GLabel 8150 2350 2    50   Output ~ 0
 BIGZ_FPGA
@@ -704,4 +676,30 @@ Text GLabel 7150 1950 0    50   Input ~ 0
 C28M
 Text GLabel 8150 2050 2    50   Output ~ 0
 C28M_FPGA
+Text GLabel 8150 2650 2    50   BiDi ~ 0
+D31_FPGA
+Text GLabel 7150 2750 0    50   Input ~ 0
+CLK90
+Text GLabel 8150 2750 2    50   Output ~ 0
+CLK90_FPGA
+Text GLabel 8150 2850 2    50   Output ~ 0
+TEST_FPGA
+Text GLabel 7150 2850 0    50   Input ~ 0
+TEST
+Text GLabel 7150 2950 0    50   Input ~ 0
+C7M
+Text GLabel 8150 2950 2    50   Output ~ 0
+C7M_FPGA
+Text GLabel 7150 3050 0    50   Input ~ 0
+CDAC
+Text GLabel 8150 3050 2    50   Output ~ 0
+CDAC_FPGA
+Text GLabel 7150 3150 0    50   Input ~ 0
+C1
+Text GLabel 8150 3150 2    50   Output ~ 0
+C1_FPGA
+Text GLabel 7150 3250 0    50   Output ~ 0
+ECLK
+Text GLabel 8150 3250 2    50   Input ~ 0
+ECLK_FPGA
 $EndSCHEMATC
