@@ -523,9 +523,7 @@ Wire Wire Line
 	3650 950  3450 950 
 Wire Wire Line
 	7700 1500 8500 1500
-Wire Wire Line
-	3450 1350 3900 1350
-Text GLabel 4050 1350 3    50   Input ~ 0
+Text GLabel 3450 1350 3    50   Input ~ 0
 GND
 Text GLabel 5100 950  2    50   Output ~ 0
 4V3
@@ -538,8 +536,6 @@ Wire Wire Line
 	3450 1300 3450 1350
 Wire Wire Line
 	3450 950  3450 1000
-Wire Wire Line
-	4050 1350 4450 1350
 Wire Wire Line
 	4750 1350 4750 1200
 Connection ~ 4050 1350
@@ -608,36 +604,23 @@ Connection ~ 8300 5150
 Wire Wire Line
 	8300 5450 8650 5450
 Connection ~ 8300 5450
-Text GLabel 4000 1700 2    50   Input ~ 0
+Text GLabel 4200 1650 2    50   Input ~ 0
 JTAGSEL_N
 Text GLabel 10450 2700 3    50   Input ~ 0
 JTAGSEL_N
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 67FA6DF8
-P 3700 1700
-F 0 "J1" H 3618 1467 50  0000 C CNN
-F 1 "Conn_01x02" H 3618 1466 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 3700 1700 50  0001 C CNN
-F 3 "~" H 3700 1700 50  0001 C CNN
-	1    3700 1700
+P 4000 1600
+F 0 "J1" H 4350 1200 50  0000 C CNN
+F 1 "Conn_01x02" H 3918 1366 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4000 1600 50  0001 C CNN
+F 3 "~" H 4000 1600 50  0001 C CNN
+	1    4000 1600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4100 2100 4100 1850
-Wire Wire Line
-	4100 1850 4200 1850
-Text GLabel 4200 1850 2    50   Input ~ 0
+Text GLabel 4200 1800 2    50   Input ~ 0
 RECONFIG_N
-Wire Wire Line
-	4000 2100 4000 1700
-Wire Wire Line
-	3900 1700 4000 1700
-Wire Wire Line
-	3900 1600 3900 1350
-Connection ~ 3900 1350
-Wire Wire Line
-	3900 1350 4050 1350
 Text GLabel 2800 2100 1    50   BiDi ~ 0
 UMDS_TDI_FPGA
 Text GLabel 9350 2650 2    50   Output ~ 0
@@ -654,4 +637,53 @@ Text GLabel 8850 2750 0    50   Output ~ 0
 LLDS_TMS_FPGA
 Text GLabel 3200 2100 1    50   Input ~ 0
 LLDS_TMS_FPGA
+Text GLabel 1350 4050 0    50   Input ~ 0
+XCLK_FPGA
+Text GLabel 3400 2100 1    50   Input ~ 0
+C3_FPGA
+Wire Wire Line
+	4200 1800 4100 1800
+Wire Wire Line
+	4100 1800 4100 2100
+Text GLabel 3500 2100 1    50   Input ~ 0
+UUDS_FPGA
+Text GLabel 3700 2100 1    50   Output ~ 0
+AGCLK_FPGA
+Wire Wire Line
+	3450 1350 4050 1350
+Wire Wire Line
+	4050 1350 4200 1350
+Wire Wire Line
+	4000 2100 4000 1700
+Wire Wire Line
+	4000 1700 4200 1700
+Wire Wire Line
+	4200 1600 4200 1700
+Wire Wire Line
+	4200 1500 4200 1350
+Connection ~ 4200 1350
+Wire Wire Line
+	4200 1350 4450 1350
+Text GLabel 3800 2100 1    50   Input ~ 0
+DS_FPGA
+Text GLabel 5450 4150 2    50   Input ~ 0
+GCLKT_2
+Text GLabel 3400 6200 3    50   Input ~ 0
+GCLKT_3
+Text GLabel 3000 6200 3    50   Input ~ 0
+GCLKT_4
+Text GLabel 1350 4850 0    50   Input ~ 0
+GCLKT_5
+Text GLabel 1350 3150 0    50   Input ~ 0
+GCLKT_7
+Text GLabel 1350 4150 0    50   Input ~ 0
+XCLKEN_FPGA
+Text Label 1350 3950 2    50   ~ 0
+NC
+Text GLabel 1350 2950 0    50   Input ~ 0
+C28M_FPGA
+Text GLabel 1350 3250 0    50   Output ~ 0
+STERM_FPGA
+Text GLabel 1350 3050 0    50   Input ~ 0
+BIGZ_FPGA
 $EndSCHEMATC
