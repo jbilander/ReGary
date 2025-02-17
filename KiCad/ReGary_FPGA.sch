@@ -69,10 +69,6 @@ Text GLabel 9250 1950 0    50   Input ~ 0
 3V3
 Text GLabel 8400 2150 1    50   Input ~ 0
 GND
-Text GLabel 10350 850  1    50   Input ~ 0
-3V3
-Wire Wire Line
-	9750 1650 10350 1650
 Text GLabel 7250 3600 0    50   Input ~ 0
 GND
 $Comp
@@ -148,39 +144,20 @@ Wire Wire Line
 	9700 3900 9350 3900
 Connection ~ 9350 3900
 $Comp
-L Device:R_Pack04 RN2
-U 1 1 607B916D
-P 10550 1050
-F 0 "RN2" H 10738 1096 50  0000 L CNN
-F 1 "10k" H 10738 1005 50  0000 L CNN
-F 2 "ReGary:RESCAF80P320X160X60-8N" V 10825 1050 50  0001 C CNN
-F 3 "~" H 10550 1050 50  0001 C CNN
-	1    10550 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Pack04 RN1
 U 1 1 607E0507
-P 10650 2500
-F 0 "RN1" H 10838 2546 50  0000 L CNN
-F 1 "10k" H 10838 2455 50  0000 L CNN
-F 2 "ReGary:RESCAF80P320X160X60-8N" V 10925 2500 50  0001 C CNN
-F 3 "~" H 10650 2500 50  0001 C CNN
-	1    10650 2500
+P 5800 1800
+F 0 "RN1" H 5988 1846 50  0000 L CNN
+F 1 "10k" H 5988 1755 50  0000 L CNN
+F 2 "ReGary:RESCAF80P320X160X60-8N" V 6075 1800 50  0001 C CNN
+F 3 "~" H 5800 1800 50  0001 C CNN
+	1    5800 1800
 	1    0    0    -1  
 $EndComp
-Text GLabel 10450 2300 1    50   Input ~ 0
+Text GLabel 5600 1600 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	10450 2300 10550 2300
-Wire Wire Line
-	9750 1850 10550 1850
-Wire Wire Line
-	10350 1250 10350 1650
-Text GLabel 10650 850  1    50   Input ~ 0
-GND
-Text GLabel 10650 1250 3    50   Input ~ 0
-TCK
+	5600 1600 5700 1600
 $Comp
 L Device:C C?
 U 1 1 60636E2E
@@ -250,10 +227,6 @@ Text Notes 7500 5050 0    50   ~ 0
 0805
 Text GLabel 9250 1750 0    50   Input ~ 0
 JP1
-Text GLabel 10450 1250 3    50   Input ~ 0
-JP1
-Wire Wire Line
-	10350 850  10450 850 
 $Comp
 L Device:C C?
 U 1 1 608291F3
@@ -386,8 +359,8 @@ $EndComp
 Text GLabel 7250 2850 0    50   Input ~ 0
 TP1
 Wire Wire Line
-	10550 2300 10650 2300
-Connection ~ 10550 2300
+	5700 1600 5800 1600
+Connection ~ 5700 1600
 $Comp
 L Connector:TestPoint_Small TP1
 U 1 1 655D4DC6
@@ -400,13 +373,8 @@ F 3 "~" H 7450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 2300 10750 2300
-Connection ~ 10650 2300
-Wire Wire Line
-	10450 850  10550 850 
-Connection ~ 10450 850 
-Wire Wire Line
-	10550 1250 10550 1850
+	5800 1600 5900 1600
+Connection ~ 5800 1600
 $Comp
 L Device:C_Small C?
 U 1 1 60785965
@@ -599,7 +567,7 @@ Wire Wire Line
 Connection ~ 8300 5450
 Text GLabel 4000 1450 2    50   Input ~ 0
 JTAGSEL_N
-Text GLabel 10450 2700 3    50   Input ~ 0
+Text GLabel 5600 2000 3    50   Input ~ 0
 JTAGSEL_N
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -714,8 +682,38 @@ Text GLabel 5450 2950 2    50   Output ~ 0
 LCD_FPGA
 Text GLabel 4400 2100 1    50   Input ~ 0
 DBR_FPGA
-Text GLabel 4500 2100 1    50   Output ~ 0
+Text GLabel 4850 1900 1    50   Output ~ 0
 LDS_FPGA
-Text GLabel 4600 2100 1    50   Output ~ 0
+Text GLabel 5050 1900 1    50   Output ~ 0
 UDS_FPGA
+Text GLabel 5700 2000 3    50   Input ~ 0
+RECONFIG_N
+Wire Wire Line
+	5300 2750 5900 2750
+Wire Wire Line
+	5900 2750 5900 2000
+Wire Wire Line
+	5400 2650 5800 2650
+Wire Wire Line
+	5800 2650 5800 2000
+Wire Wire Line
+	5300 2750 5300 2100
+Wire Wire Line
+	5300 2100 5050 2100
+Wire Wire Line
+	4500 2100 4500 2000
+Wire Wire Line
+	4500 2000 4850 2000
+Wire Wire Line
+	5400 2000 5400 2650
+Connection ~ 4850 2000
+Wire Wire Line
+	4850 2000 5400 2000
+Connection ~ 5050 2100
+Wire Wire Line
+	5050 2100 4600 2100
+Wire Wire Line
+	4850 1900 4850 2000
+Wire Wire Line
+	5050 1900 5050 2100
 $EndSCHEMATC

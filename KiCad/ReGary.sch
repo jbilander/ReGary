@@ -768,4 +768,7 @@ Text GLabel 8150 4700 2    50   Output ~ 0
 A12_FPGA
 Text GLabel 8150 4800 2    50   Output ~ 0
 PWRUP_FPGA
+Text GLabel 7150 5000 0    50   Input ~ 0
+GND
+NoConn ~ 8150 5100
 $EndSCHEMATC
