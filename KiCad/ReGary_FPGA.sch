@@ -16,60 +16,58 @@ $EndDescr
 $Comp
 L ReGary:LM1117-3.3 U2
 U 1 1 60C4BF35
-P 7250 1500
-F 0 "U2" H 7250 1742 50  0000 C CNN
-F 1 "LM1117-3.3" H 7250 1651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 7250 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7250 1500 50  0001 C CNN
-	1    7250 1500
+P 7800 1100
+F 0 "U2" H 7800 1342 50  0000 C CNN
+F 1 "LM1117-3.3" H 7800 1251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7800 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7800 1100 50  0001 C CNN
+	1    7800 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 1800 3    50   Input ~ 0
+Text GLabel 7800 1400 3    50   Input ~ 0
 GND
-Text GLabel 6850 1500 3    50   Input ~ 0
+Text GLabel 7400 1100 3    50   Input ~ 0
 VCC
-Text GLabel 8500 1500 2    50   Output ~ 0
+Text GLabel 9050 1100 2    50   Output ~ 0
 3V3
 $Comp
 L Device:C_Small C1
 U 1 1 60C5D26D
-P 6850 1400
-F 0 "C1" H 6550 1450 50  0000 L CNN
-F 1 "10uF" H 6550 1350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6850 1400 50  0001 C CNN
-F 3 "~" H 6850 1400 50  0001 C CNN
-	1    6850 1400
+P 7400 1000
+F 0 "C1" H 7100 1050 50  0000 L CNN
+F 1 "10uF" H 7100 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7400 1000 50  0001 C CNN
+F 3 "~" H 7400 1000 50  0001 C CNN
+	1    7400 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 1500 6850 1500
-Text GLabel 6850 1300 1    50   Input ~ 0
+	7500 1100 7400 1100
+Text GLabel 7400 900  1    50   Input ~ 0
 GND
 $Comp
 L Device:C_Small C2
 U 1 1 60C6177C
-P 7700 1400
-F 0 "C2" H 7800 1450 50  0000 L CNN
-F 1 "10uF" H 7800 1350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7700 1400 50  0001 C CNN
-F 3 "~" H 7700 1400 50  0001 C CNN
-	1    7700 1400
+P 8250 1000
+F 0 "C2" H 8350 1050 50  0000 L CNN
+F 1 "10uF" H 8350 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8250 1000 50  0001 C CNN
+F 3 "~" H 8250 1000 50  0001 C CNN
+	1    8250 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7700 1300 1    50   Input ~ 0
-GND
-Text GLabel 8100 1300 1    50   Input ~ 0
+Text GLabel 8250 900  1    50   Input ~ 0
 GND
 Wire Wire Line
-	7550 1600 7550 1500
+	8100 1200 8100 1100
 Wire Wire Line
-	7550 1500 7700 1500
-Connection ~ 7700 1500
+	8100 1100 8250 1100
+Connection ~ 8250 1100
 Text GLabel 9250 1650 0    50   Input ~ 0
 GND
 Text GLabel 9250 1950 0    50   Input ~ 0
 3V3
-Text GLabel 8400 2350 1    50   Input ~ 0
+Text GLabel 8400 2150 1    50   Input ~ 0
 GND
 Text GLabel 10350 850  1    50   Input ~ 0
 3V3
@@ -364,25 +362,25 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 6085C631
-P 4750 1100
+P 6050 950
 AR Path="/6085C631" Ref="C?"  Part="1" 
 AR Path="/608A10F5/6085C631" Ref="C4"  Part="1" 
-F 0 "C4" H 4550 1100 50  0000 L CNN
-F 1 "1uF" H 4600 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 950 50  0001 C CNN
-F 3 "~" H 4750 1100 50  0001 C CNN
-	1    4750 1100
+F 0 "C4" H 5850 950 50  0000 L CNN
+F 1 "1uF" H 5900 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6088 800 50  0001 C CNN
+F 3 "~" H 6050 950 50  0001 C CNN
+	1    6050 950 
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 6086B673
-P 3450 1150
-F 0 "C3" H 3550 1200 50  0000 L CNN
-F 1 "10uF" H 3550 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3450 1150 50  0001 C CNN
-F 3 "~" H 3450 1150 50  0001 C CNN
-	1    3450 1150
+P 4750 1000
+F 0 "C3" H 4850 1050 50  0000 L CNN
+F 1 "10uF" H 4850 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4750 1000 50  0001 C CNN
+F 3 "~" H 4750 1000 50  0001 C CNN
+	1    4750 1000
 	-1   0    0    1   
 $EndComp
 Text GLabel 7250 2850 0    50   Input ~ 0
@@ -412,14 +410,14 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 60785965
-P 4450 1150
+P 5750 1000
 AR Path="/60785965" Ref="C?"  Part="1" 
 AR Path="/608A10F5/60785965" Ref="C20"  Part="1" 
-F 0 "C20" H 4500 1100 50  0000 L CNN
-F 1 "0.1uF" H 4450 1000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4488 1000 50  0001 C CNN
-F 3 "~" H 4450 1150 50  0001 C CNN
-	1    4450 1150
+F 0 "C20" H 5800 950 50  0000 L CNN
+F 1 "0.1uF" H 5750 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5788 850 50  0001 C CNN
+F 3 "~" H 5750 1000 50  0001 C CNN
+	1    5750 1000
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 6150 0    50   Input ~ 0
@@ -509,46 +507,46 @@ Text GLabel 9350 2750 2    50   Input ~ 0
 $Comp
 L Regulator_Linear:TPS73643DBV U3
 U 1 1 67D103CA
-P 4050 1050
-F 0 "U3" H 4050 1417 50  0000 C CNN
-F 1 "TPS73643DBV" H 4050 1326 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4050 1375 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps736.pdf" H 4050 1000 50  0001 C CNN
-	1    4050 1050
+P 5350 900
+F 0 "U3" H 5350 1267 50  0000 C CNN
+F 1 "TPS73643DBV" H 5350 1176 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5350 1225 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps736.pdf" H 5350 850 50  0001 C CNN
+	1    5350 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 3450 950  0    50   Input ~ 0
+Text GLabel 4750 800  0    50   Input ~ 0
 VCC
 Wire Wire Line
-	3650 950  3450 950 
+	4950 800  4750 800 
 Wire Wire Line
-	7700 1500 8500 1500
-Text GLabel 3450 1350 3    50   Input ~ 0
+	8250 1100 9050 1100
+Text GLabel 5350 1200 3    50   Input ~ 0
 GND
-Text GLabel 5100 950  2    50   Output ~ 0
+Text GLabel 6400 800  2    50   Output ~ 0
 4V3
 Wire Wire Line
-	3650 1050 3650 950 
-Connection ~ 3650 950 
+	4950 900  4950 800 
+Connection ~ 4950 800 
 Wire Wire Line
-	4450 950  4750 950 
+	5750 800  6050 800 
 Wire Wire Line
-	3450 1300 3450 1350
+	4750 1150 4750 1200
 Wire Wire Line
-	3450 950  3450 1000
+	4750 800  4750 850 
 Wire Wire Line
-	4750 1350 4750 1200
-Connection ~ 4050 1350
+	6050 1200 6050 1050
+Connection ~ 5350 1200
 Wire Wire Line
-	4750 1000 4750 950 
-Connection ~ 4750 950 
+	6050 850  6050 800 
+Connection ~ 6050 800 
 Wire Wire Line
-	4750 950  5100 950 
+	6050 800  6400 800 
 Wire Wire Line
-	4450 1250 4450 1350
-Connection ~ 4450 1350
+	5750 1100 5750 1200
+Connection ~ 5750 1200
 Wire Wire Line
-	4450 1350 4750 1350
+	5750 1200 6050 1200
 Text GLabel 7250 4650 0    50   Input ~ 0
 3V3
 Text GLabel 7250 4350 0    50   Input ~ 0
@@ -585,41 +583,36 @@ Wire Wire Line
 $Comp
 L Device:R_Small R1
 U 1 1 67F65041
-P 8400 2450
-F 0 "R1" H 8459 2496 50  0000 L CNN
-F 1 "4k7" H 8459 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8400 2450 50  0001 C CNN
-F 3 "~" H 8400 2450 50  0001 C CNN
-	1    8400 2450
+P 8400 2350
+F 0 "R1" H 8459 2396 50  0000 L CNN
+F 1 "4k7" H 8459 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8400 2350 50  0001 C CNN
+F 3 "~" H 8400 2350 50  0001 C CNN
+	1    8400 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8850 2550 8400 2550
-Connection ~ 8400 2550
-Wire Wire Line
-	8400 2550 8200 2550
 Wire Wire Line
 	8300 5150 8650 5150
 Connection ~ 8300 5150
 Wire Wire Line
 	8300 5450 8650 5450
 Connection ~ 8300 5450
-Text GLabel 4200 1650 2    50   Input ~ 0
+Text GLabel 4000 1450 2    50   Input ~ 0
 JTAGSEL_N
 Text GLabel 10450 2700 3    50   Input ~ 0
 JTAGSEL_N
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 67FA6DF8
-P 4000 1600
-F 0 "J1" H 4350 1200 50  0000 C CNN
-F 1 "Conn_01x02" H 3918 1366 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4000 1600 50  0001 C CNN
-F 3 "~" H 4000 1600 50  0001 C CNN
-	1    4000 1600
+P 3800 1450
+F 0 "J1" H 3800 1250 50  0000 C CNN
+F 1 "Conn_01x02" H 3718 1216 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 3800 1450 50  0001 C CNN
+F 3 "~" H 3800 1450 50  0001 C CNN
+	1    3800 1450
 	-1   0    0    1   
 $EndComp
-Text GLabel 4200 1800 2    50   Input ~ 0
+Text GLabel 4100 1600 2    50   Input ~ 0
 RECONFIG_N
 Text GLabel 2800 2100 1    50   BiDi ~ 0
 UMDS_TDI_FPGA
@@ -641,35 +634,14 @@ Text GLabel 1350 4050 0    50   Input ~ 0
 XCLK_FPGA
 Text GLabel 3400 2100 1    50   Input ~ 0
 C3_FPGA
-Wire Wire Line
-	4200 1800 4100 1800
-Wire Wire Line
-	4100 1800 4100 2100
 Text GLabel 3500 2100 1    50   Input ~ 0
 UUDS_FPGA
 Text GLabel 3700 2100 1    50   Output ~ 0
 AGCLK_FPGA
 Wire Wire Line
-	3450 1350 4050 1350
-Wire Wire Line
-	4050 1350 4200 1350
-Wire Wire Line
-	4000 2100 4000 1700
-Wire Wire Line
-	4000 1700 4200 1700
-Wire Wire Line
-	4200 1600 4200 1700
-Wire Wire Line
-	4200 1500 4200 1350
-Connection ~ 4200 1350
-Wire Wire Line
-	4200 1350 4450 1350
+	4750 1200 5350 1200
 Text GLabel 3800 2100 1    50   Input ~ 0
 DS_FPGA
-Text GLabel 5450 4150 2    50   Input ~ 0
-GCLKT_2
-Text GLabel 3400 6200 3    50   Input ~ 0
-GCLKT_3
 Text GLabel 1350 4150 0    50   Input ~ 0
 XCLKEN_FPGA
 Text Label 1350 3950 2    50   ~ 0
@@ -694,4 +666,56 @@ Text GLabel 3600 2100 1    50   Input ~ 0
 C1_FPGA
 Text GLabel 1350 3750 0    50   Output ~ 0
 ECLK_FPGA
+Text GLabel 1350 3650 0    50   Output ~ 0
+RAMEN_FPGA
+Text GLabel 1350 3550 0    50   Output ~ 0
+REGEN_FPGA
+Text GLabel 3400 6200 3    50   Input ~ 0
+CPUCLK_FPGA
+Text GLabel 5450 4150 2    50   Input ~ 0
+KBCLK_FPGA
+Connection ~ 8100 1100
+Text GLabel 4000 1350 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5350 1200 5750 1200
+Wire Wire Line
+	8200 2550 8400 2550
+Wire Wire Line
+	8400 2450 8400 2550
+Connection ~ 8400 2550
+Wire Wire Line
+	8400 2550 8850 2550
+Wire Wire Line
+	8400 2250 8400 2150
+Wire Wire Line
+	4000 1450 4000 2100
+Wire Wire Line
+	4100 1600 4100 2100
+Text GLabel 5450 4050 2    50   Output ~ 0
+DMAC_FPGA
+Text GLabel 5450 3950 2    50   Output ~ 0
+CIA1_FPGA
+Text GLabel 5450 3850 2    50   Output ~ 0
+CIA0_FPGA
+Text GLabel 5450 3550 2    50   Output ~ 0
+FPU_FPGA
+Text GLabel 5450 3450 2    50   Output ~ 0
+SLOT_FPGA
+Text GLabel 5450 3350 2    50   Output ~ 0
+RTCWR_FPGA
+Text GLabel 5450 3650 2    50   Output ~ 0
+RTCRD_FPGA
+Text GLabel 5450 3750 2    50   Output ~ 0
+ROMOE_FPGA
+Text GLabel 5450 3050 2    50   Output ~ 0
+OECD_FPGA
+Text GLabel 5450 2950 2    50   Output ~ 0
+LCD_FPGA
+Text GLabel 4400 2100 1    50   Input ~ 0
+DBR_FPGA
+Text GLabel 4500 2100 1    50   Output ~ 0
+LDS_FPGA
+Text GLabel 4600 2100 1    50   Output ~ 0
+UDS_FPGA
 $EndSCHEMATC
