@@ -729,4 +729,18 @@ Text GLabel 3900 2100 1    50   Input ~ 0
 PWRUP_FPGA
 Text GLabel 2600 2100 1    50   Output ~ 0
 BLS_FPGA
+Text GLabel 5450 4450 2    50   Output ~ 0
+CIIN_FPGA
+Text GLabel 5450 5050 2    50   Output ~ 0
+BERR_FPGA
+Text GLabel 5450 4550 2    50   Output ~ 0
+AVEC_FPGA
+Text GLabel 5450 4650 2    50   Input ~ 0
+ROMJP1_FPGA
+Text GLabel 5450 4750 2    50   Input ~ 0
+ROMJP0_FPGA
+Text GLabel 5450 4350 2    50   BiDi ~ 0
+RESET_FPGA
+Text GLabel 5450 4250 2    50   Input ~ 0
+A15_FPGA
 $EndSCHEMATC
