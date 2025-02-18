@@ -102,14 +102,14 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 60CC8F0E
-P 7950 5300
+P 8300 5300
 AR Path="/60CC8F0E" Ref="C?"  Part="1" 
 AR Path="/608A10F5/60CC8F0E" Ref="C9"  Part="1" 
-F 0 "C9" H 8050 5300 50  0000 L CNN
-F 1 "0.1uF" H 7950 5200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7988 5150 50  0001 C CNN
-F 3 "~" H 7950 5300 50  0001 C CNN
-	1    7950 5300
+F 0 "C9" H 8400 5300 50  0000 L CNN
+F 1 "0.1uF" H 8300 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8338 5150 50  0001 C CNN
+F 3 "~" H 8300 5300 50  0001 C CNN
+	1    8300 5300
 	1    0    0    -1  
 $EndComp
 Connection ~ 7950 3600
@@ -128,8 +128,8 @@ L Device:C C?
 U 1 1 607ACE36
 P 8650 5300
 AR Path="/607ACE36" Ref="C?"  Part="1" 
-AR Path="/608A10F5/607ACE36" Ref="C11"  Part="1" 
-F 0 "C11" H 8750 5300 50  0000 L CNN
+AR Path="/608A10F5/607ACE36" Ref="C10"  Part="1" 
+F 0 "C10" H 8750 5300 50  0000 L CNN
 F 1 "0.1uF" H 8650 5200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8688 5150 50  0001 C CNN
 F 3 "~" H 8650 5300 50  0001 C CNN
@@ -224,22 +224,22 @@ Text Notes 7500 5050 0    50   ~ 0
 $Comp
 L Device:C C?
 U 1 1 608291F3
-P 8300 5300
+P 7950 5300
 AR Path="/608291F3" Ref="C?"  Part="1" 
-AR Path="/608A10F5/608291F3" Ref="C10"  Part="1" 
-F 0 "C10" H 8400 5300 50  0000 L CNN
-F 1 "0.1uF" H 8300 5200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8338 5150 50  0001 C CNN
-F 3 "~" H 8300 5300 50  0001 C CNN
-	1    8300 5300
+AR Path="/608A10F5/608291F3" Ref="C8"  Part="1" 
+F 0 "C8" H 8050 5300 50  0000 L CNN
+F 1 "0.1uF" H 7950 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7988 5150 50  0001 C CNN
+F 3 "~" H 7950 5300 50  0001 C CNN
+	1    7950 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7950 5150 8300 5150
 Connection ~ 7950 5150
 Wire Wire Line
-	7950 5450 8300 5450
-Connection ~ 7950 5450
+	8300 5450 8650 5450
+Connection ~ 8300 5450
 $Comp
 L Device:C C?
 U 1 1 60898D1D
@@ -316,14 +316,14 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 6084459F
-P 8300 6000
+P 9000 5300
 AR Path="/6084459F" Ref="C?"  Part="1" 
-AR Path="/608A10F5/6084459F" Ref="C7"  Part="1" 
-F 0 "C7" H 8400 6000 50  0000 L CNN
-F 1 "1uF" H 8300 5900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8338 5850 50  0001 C CNN
-F 3 "~" H 8300 6000 50  0001 C CNN
-	1    8300 6000
+AR Path="/608A10F5/6084459F" Ref="C11"  Part="1" 
+F 0 "C11" H 9100 5300 50  0000 L CNN
+F 1 "0.1uF" H 9000 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9038 5150 50  0001 C CNN
+F 3 "~" H 9000 5300 50  0001 C CNN
+	1    9000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -396,14 +396,8 @@ Wire Wire Line
 	7600 5850 7950 5850
 Connection ~ 7600 5850
 Wire Wire Line
-	7950 5850 8300 5850
-Connection ~ 7950 5850
-Wire Wire Line
 	7600 6150 7950 6150
 Connection ~ 7600 6150
-Connection ~ 7950 6150
-Wire Wire Line
-	7950 6150 8300 6150
 $Comp
 L ReGary:GW1N-UV1P5LQ100 U1
 U 1 1 67C4A39D
@@ -524,8 +518,8 @@ L Device:C C?
 U 1 1 67F0E861
 P 7600 5300
 AR Path="/67F0E861" Ref="C?"  Part="1" 
-AR Path="/608A10F5/67F0E861" Ref="C8"  Part="1" 
-F 0 "C8" H 7700 5300 50  0000 L CNN
+AR Path="/608A10F5/67F0E861" Ref="C7"  Part="1" 
+F 0 "C7" H 7700 5300 50  0000 L CNN
 F 1 "0.1uF" H 7600 5200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7638 5150 50  0001 C CNN
 F 3 "~" H 7600 5300 50  0001 C CNN
@@ -533,15 +527,9 @@ F 3 "~" H 7600 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5150 7600 5150
-Wire Wire Line
 	7250 5450 7600 5450
-Connection ~ 7600 5150
 Wire Wire Line
-	7600 5150 7950 5150
-Connection ~ 7600 5450
-Wire Wire Line
-	7600 5450 7950 5450
+	7950 5450 8300 5450
 $Comp
 L Device:R_Small R1
 U 1 1 67F65041
@@ -557,8 +545,8 @@ Wire Wire Line
 	8300 5150 8650 5150
 Connection ~ 8300 5150
 Wire Wire Line
-	8300 5450 8650 5450
-Connection ~ 8300 5450
+	8650 5450 9000 5450
+Connection ~ 8650 5450
 Text GLabel 4700 1750 1    50   Input ~ 0
 JTAGSEL_N
 $Comp
@@ -743,4 +731,16 @@ Text GLabel 5450 4350 2    50   BiDi ~ 0
 RESET_FPGA
 Text GLabel 5450 4250 2    50   Input ~ 0
 A15_FPGA
+Wire Wire Line
+	7250 5150 7600 5150
+Connection ~ 7600 5150
+Wire Wire Line
+	7600 5150 7950 5150
+Wire Wire Line
+	7600 5450 7950 5450
+Connection ~ 7600 5450
+Connection ~ 7950 5450
+Wire Wire Line
+	8650 5150 9000 5150
+Connection ~ 8650 5150
 $EndSCHEMATC
