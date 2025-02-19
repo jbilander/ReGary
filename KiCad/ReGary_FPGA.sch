@@ -743,4 +743,14 @@ Connection ~ 7950 5450
 Wire Wire Line
 	8650 5150 9000 5150
 Connection ~ 8650 5150
+Text GLabel 5450 5250 2    50   Input ~ 0
+A14_FPGA
+Text GLabel 5450 5150 2    50   Input ~ 0
+OVL_FPGA
+Text GLabel 5450 5350 2    50   Input ~ 0
+A13_FPGA
+Text GLabel 4500 6200 3    50   Output ~ 0
+DSACK1_FPGA
+Text GLabel 4400 6200 3    50   Output ~ 0
+DSACK0_FPGA
 $EndSCHEMATC
