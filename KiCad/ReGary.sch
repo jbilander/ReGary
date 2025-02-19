@@ -187,35 +187,33 @@ Text GLabel 8150 1750 2    50   Input ~ 0
 UUDS_FPGA
 Text GLabel 8150 1950 2    50   Output ~ 0
 DS_FPGA
-Text GLabel -250 1100 2    50   Output ~ 0
+Text GLabel -250 1950 2    50   Output ~ 0
 WAIT_FPGA
-Text GLabel -250 1200 2    50   BiDi ~ 0
+Text GLabel -250 2050 2    50   BiDi ~ 0
 DOE_FPGA
-Text GLabel -250 1300 2    50   BiDi ~ 0
+Text GLabel -250 2150 2    50   BiDi ~ 0
 DTACK_FPGA
-Text GLabel -250 1400 2    50   BiDi ~ 0
+Text GLabel -250 2250 2    50   BiDi ~ 0
 MTACK_FPGA
-Text GLabel -250 3000 2    50   Output ~ 0
+Text GLabel -250 2550 2    50   Output ~ 0
 SBR_FPGA
-Text GLabel -250 3100 2    50   BiDi ~ 0
+Text GLabel -250 2650 2    50   BiDi ~ 0
 RMC_FPGA
-Text GLabel -250 3200 2    50   BiDi ~ 0
+Text GLabel -250 2750 2    50   BiDi ~ 0
 CCS_FPGA
-Text GLabel -250 3300 2    50   BiDi ~ 0
+Text GLabel -250 2850 2    50   BiDi ~ 0
 A2_FPGA
-Text GLabel -250 3400 2    50   BiDi ~ 0
+Text GLabel -250 2950 2    50   BiDi ~ 0
 A1_FPGA
-Text GLabel -250 2900 2    50   Input ~ 0
+Text GLabel -250 2450 2    50   Input ~ 0
 SBG_FPGA
-Text GLabel -250 3600 2    50   BiDi ~ 0
+Text GLabel 10200 5800 2    50   Output ~ 0
 RW_FPGA
 Text GLabel 10200 5700 2    50   Output ~ 0
 SIZ0_FPGA
-Text GLabel -250 1950 2    50   BiDi ~ 0
-STERM_FPGA
-Text GLabel -250 2250 2    50   Input ~ 0
-DS_FPGA
 Text GLabel -250 2350 2    50   BiDi ~ 0
+STERM_FPGA
+Text GLabel 10200 5900 2    50   Output ~ 0
 AS_FPGA
 Text GLabel 8150 4000 2    50   Input ~ 0
 RAMEN_FPGA
@@ -227,12 +225,12 @@ Text GLabel 8150 4300 2    50   Output ~ 0
 DBR_FPGA
 Text GLabel 10200 4800 2    50   Output ~ 0
 CPUCLK_FPGA
-Text GLabel -200 4000 2    50   BiDi ~ 0
-BGACK_FPGA
-Text GLabel -200 4100 2    50   Input ~ 0
-BG_FPGA
-Text GLabel -200 4200 2    50   BiDi ~ 0
-BR_FPGA
+Text GLabel 10200 1150 2    50   Output ~ 0
+FC2_FPGA
+Text GLabel 10200 6100 2    50   Output ~ 0
+FC1_FPGA
+Text GLabel 10200 6000 2    50   Output ~ 0
+FC0_FPGA
 Wire Wire Line
 	2850 6850 3200 6850
 Wire Wire Line
@@ -287,50 +285,48 @@ Text GLabel 2750 5350 2    50   Input ~ 0
 VCC
 Text GLabel 8150 2250 2    50   Output ~ 0
 XCLK_FPGA
-Text GLabel -450 3200 0    50   BiDi ~ 0
+Text GLabel -450 2750 0    50   BiDi ~ 0
 CCS
-Text GLabel -450 3300 0    50   BiDi ~ 0
+Text GLabel -450 2850 0    50   BiDi ~ 0
 A2
-Text GLabel -450 3400 0    50   BiDi ~ 0
+Text GLabel -450 2950 0    50   BiDi ~ 0
 A1
-Text GLabel -450 3500 0    50   BiDi ~ 0
+Text GLabel -450 3050 0    50   BiDi ~ 0
 A0
-Text GLabel -450 3600 0    50   BiDi ~ 0
+Text GLabel 950  3350 0    50   Output ~ 0
 RW
 Text GLabel 950  3450 0    50   Output ~ 0
 SIZ0
 Text GLabel 950  3550 0    50   Output ~ 0
 SIZ1
-Text GLabel -450 2350 0    50   BiDi ~ 0
+Text GLabel 950  3250 0    50   Output ~ 0
 AS
-Text GLabel -450 2250 0    50   Output ~ 0
-DS
 Text GLabel 950  3650 0    50   Input ~ 0
 DSACK0
 Text GLabel 950  3750 0    50   Input ~ 0
 DSACK1
-Text GLabel -450 1950 0    50   BiDi ~ 0
+Text GLabel -450 2350 0    50   BiDi ~ 0
 STERM
-Text GLabel -450 3100 0    50   BiDi ~ 0
+Text GLabel -450 2650 0    50   BiDi ~ 0
 RMC
-Text GLabel -450 3000 0    50   Input ~ 0
+Text GLabel -450 2550 0    50   Input ~ 0
 SBR
-Text GLabel -500 1550 0    50   Output ~ 0
+Text GLabel -450 2450 0    50   Output ~ 0
 SBG
-Text GLabel -500 1350 0    50   BiDi ~ 0
+Text GLabel -450 2250 0    50   BiDi ~ 0
 MTACK
-Text GLabel -500 1250 0    50   BiDi ~ 0
+Text GLabel -450 2150 0    50   BiDi ~ 0
 DTACK
-Text GLabel -500 1150 0    50   BiDi ~ 0
+Text GLabel -450 2050 0    50   BiDi ~ 0
 DOE
-Text GLabel -500 1050 0    50   Input ~ 0
+Text GLabel -450 1950 0    50   Input ~ 0
 WAIT
-Text GLabel -500 4250 0    50   BiDi ~ 0
-BR
-Text GLabel -500 4150 0    50   Output ~ 0
-BG
-Text GLabel -500 4050 0    50   BiDi ~ 0
-BGACK
+Text GLabel 950  3150 0    50   Output ~ 0
+FC0
+Text GLabel 950  3050 0    50   Output ~ 0
+FC1
+Text GLabel 950  2950 0    50   Output ~ 0
+FC2
 Text GLabel 2750 2450 2    50   Input ~ 0
 LDS
 Text GLabel 2750 2550 2    50   Output ~ 0
@@ -358,7 +354,7 @@ Text GLabel 5700 5350 2    50   Input ~ 0
 VCC
 Text GLabel 8150 1550 2    50   Output ~ 0
 C3_FPGA
-Text GLabel -250 3500 2    50   BiDi ~ 0
+Text GLabel -250 3050 2    50   BiDi ~ 0
 A0_FPGA
 Text GLabel 10200 5200 2    50   Input ~ 0
 DSACK1_FPGA
@@ -877,4 +873,24 @@ Text GLabel 9200 5700 0    50   Input ~ 0
 SIZ0
 Text GLabel 9200 5600 0    50   Input ~ 0
 SIZ1
+Text GLabel 3900 3350 0    50   Output ~ 0
+RW
+Text GLabel 9200 5800 0    50   Input ~ 0
+RW
+Text GLabel 3900 3250 0    50   Output ~ 0
+AS
+Text GLabel 9200 5900 0    50   Input ~ 0
+AS
+Text GLabel 3900 3150 0    50   Output ~ 0
+FC0
+Text GLabel 3900 3050 0    50   Output ~ 0
+FC1
+Text GLabel 3900 2950 0    50   Output ~ 0
+FC2
+Text GLabel 9200 6000 0    50   Input ~ 0
+FC0
+Text GLabel 9200 6100 0    50   Input ~ 0
+FC1
+Text GLabel 9200 1050 0    50   Input ~ 0
+FC2
 $EndSCHEMATC

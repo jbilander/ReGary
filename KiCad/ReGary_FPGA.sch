@@ -753,4 +753,18 @@ Text GLabel 4500 6200 3    50   Output ~ 0
 DSACK1_FPGA
 Text GLabel 4400 6200 3    50   Output ~ 0
 DSACK0_FPGA
+Text GLabel 4300 6200 3    50   Input ~ 0
+SIZ1_FPGA
+Text GLabel 3900 6200 3    50   Input ~ 0
+SIZ0_FPGA
+Text GLabel 3800 6200 3    50   Input ~ 0
+RW_FPGA
+Text GLabel 4100 6200 3    50   Output ~ 0
+AS_FPGA
+Text GLabel 3600 6200 3    50   Input ~ 0
+FC1_FPGA
+Text GLabel 3700 6200 3    50   Input ~ 0
+FC0_FPGA
+Text GLabel 3500 6200 3    50   Input ~ 0
+FC2_FPGA
 $EndSCHEMATC
