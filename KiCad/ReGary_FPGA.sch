@@ -350,7 +350,7 @@ F 3 "~" H 6750 1400 50  0001 C CNN
 	1    6750 1400
 	-1   0    0    1   
 $EndComp
-Text GLabel 7250 2850 0    50   Input ~ 0
+Text GLabel 2500 6750 0    50   Input ~ 0
 TP1
 Wire Wire Line
 	5600 1400 5700 1400
@@ -358,12 +358,12 @@ Connection ~ 5600 1400
 $Comp
 L Connector:TestPoint_Small TP1
 U 1 1 655D4DC6
-P 7250 2950
-F 0 "TP1" H 7298 2950 50  0000 L CNN
-F 1 "TestPoint_Small" H 7298 2905 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7450 2950 50  0001 C CNN
-F 3 "~" H 7450 2950 50  0001 C CNN
-	1    7250 2950
+P 2500 6850
+F 0 "TP1" H 2548 6850 50  0000 L CNN
+F 1 "TestPoint_Small" H 2548 6805 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2700 6850 50  0001 C CNN
+F 3 "~" H 2700 6850 50  0001 C CNN
+	1    2500 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -612,7 +612,7 @@ Text GLabel 3000 6200 3    50   Input ~ 0
 CDAC_FPGA
 Text GLabel 3600 2100 1    50   Input ~ 0
 C1_FPGA
-Text GLabel 1350 3750 0    50   Output ~ 0
+Text GLabel 1350 3550 0    50   Output ~ 0
 ECLK_FPGA
 Text GLabel 2400 2100 1    50   Output ~ 0
 RAMEN_FPGA
@@ -757,14 +757,54 @@ Text GLabel 4300 6200 3    50   Input ~ 0
 SIZ1_FPGA
 Text GLabel 3900 6200 3    50   Input ~ 0
 SIZ0_FPGA
-Text GLabel 3800 6200 3    50   Input ~ 0
+Text GLabel 1350 3650 0    50   Input ~ 0
 RW_FPGA
-Text GLabel 4100 6200 3    50   Output ~ 0
+Text GLabel 1350 3750 0    50   Output ~ 0
 AS_FPGA
-Text GLabel 3600 6200 3    50   Input ~ 0
+Text GLabel 1350 4550 0    50   Input ~ 0
 FC1_FPGA
-Text GLabel 3700 6200 3    50   Input ~ 0
+Text GLabel 1350 4450 0    50   Input ~ 0
 FC0_FPGA
-Text GLabel 3500 6200 3    50   Input ~ 0
+Text GLabel 1350 4650 0    50   Input ~ 0
 FC2_FPGA
+Text GLabel 1350 4250 0    50   Input ~ 0
+A1_FPGA
+Text GLabel 1350 4350 0    50   Input ~ 0
+A0_FPGA
+Text GLabel 1350 5250 0    50   BiDi ~ 0
+A31_FPGA
+Text GLabel 1350 5350 0    50   BiDi ~ 0
+A30_FPGA
+Text GLabel 2300 6200 3    50   BiDi ~ 0
+A29_FPGA
+Text GLabel 2400 6200 3    50   BiDi ~ 0
+A28_FPGA
+Text GLabel 3100 6200 3    50   BiDi ~ 0
+A27_FPGA
+Text GLabel 3200 6200 3    50   BiDi ~ 0
+A26_FPGA
+Text GLabel 4100 6200 3    50   Output ~ 0
+IENA_FPGA
+Text GLabel 3800 6200 3    50   BiDi ~ 0
+A25_FPGA
+Text GLabel 3700 6200 3    50   BiDi ~ 0
+A24_FPGA
+Text GLabel 1350 4750 0    50   Input ~ 0
+A16_FPGA
+Text GLabel 1350 4950 0    50   Input ~ 0
+A17_FPGA
+Text GLabel 3300 6200 3    50   Output ~ 0
+A21_FPGA
+Text GLabel 3500 6200 3    50   Output ~ 0
+A22_FPGA
+Text GLabel 3600 6200 3    50   Output ~ 0
+A23_FPGA
+Text GLabel 2800 6200 3    50   Input ~ 0
+A18_FPGA
+Text GLabel 2700 6200 3    50   Input ~ 0
+A19_FPGA
+Text GLabel 2600 6200 3    50   Input ~ 0
+A20_FPGA
+Wire Wire Line
+	2500 6200 2500 6850
 $EndSCHEMATC
