@@ -126,12 +126,12 @@ Connection ~ 2500 6850
 Wire Wire Line
 	2500 6850 2850 6850
 Wire Wire Line
-	2150 7150 2500 7150
-Connection ~ 2500 7150
-Wire Wire Line
 	2500 7150 2850 7150
-Connection ~ 2850 6850
 Connection ~ 2850 7150
+Wire Wire Line
+	2850 7150 3200 7150
+Connection ~ 2850 6850
+Connection ~ 3200 7150
 Wire Wire Line
 	10200 1050 10200 950 
 Wire Wire Line
@@ -214,14 +214,25 @@ FC0_FPGA
 Wire Wire Line
 	2850 6850 3200 6850
 Wire Wire Line
-	2850 7150 3200 7150
-Text Notes 2300 6750 0    50   ~ 0
+	3200 7150 3550 7150
+Text Notes 2400 6800 0    50   ~ 0
 0603
 $Comp
 L Device:C C23
 U 1 1 605F0F7B
+P 3550 7000
+F 0 "C23" H 3650 7000 50  0000 L CNN
+F 1 "0.01uF" H 3550 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 6850 50  0001 C CNN
+F 3 "~" H 3550 7000 50  0001 C CNN
+	1    3550 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 605D5D6F
 P 3200 7000
-F 0 "C23" H 3300 7000 50  0000 L CNN
+F 0 "C22" H 3300 7000 50  0000 L CNN
 F 1 "0.01uF" H 3200 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3238 6850 50  0001 C CNN
 F 3 "~" H 3200 7000 50  0001 C CNN
@@ -229,10 +240,10 @@ F 3 "~" H 3200 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C22
-U 1 1 605D5D6F
+L Device:C C21
+U 1 1 605D5659
 P 2850 7000
-F 0 "C22" H 2950 7000 50  0000 L CNN
+F 0 "C21" H 2950 7000 50  0000 L CNN
 F 1 "0.01uF" H 2850 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 6850 50  0001 C CNN
 F 3 "~" H 2850 7000 50  0001 C CNN
@@ -240,25 +251,14 @@ F 3 "~" H 2850 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
-U 1 1 605D5659
+L Device:C C20
+U 1 1 605D3E60
 P 2500 7000
-F 0 "C21" H 2600 7000 50  0000 L CNN
+F 0 "C20" H 2600 7000 50  0000 L CNN
 F 1 "0.01uF" H 2500 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 6850 50  0001 C CNN
 F 3 "~" H 2500 7000 50  0001 C CNN
 	1    2500 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C20
-U 1 1 605D3E60
-P 2150 7000
-F 0 "C20" H 2250 7000 50  0000 L CNN
-F 1 "0.01uF" H 2150 6900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2188 6850 50  0001 C CNN
-F 3 "~" H 2150 7000 50  0001 C CNN
-	1    2150 7000
 	1    0    0    -1  
 $EndComp
 Text GLabel 2750 5350 2    50   Input ~ 0
@@ -925,4 +925,10 @@ Text GLabel 10200 2850 2    50   Output ~ 0
 A22_FPGA
 Text GLabel 10200 2950 2    50   Output ~ 0
 A23_FPGA
+Wire Wire Line
+	3550 6850 3200 6850
+Connection ~ 3200 6850
+Wire Wire Line
+	2500 7150 2150 7150
+Connection ~ 2500 7150
 $EndSCHEMATC
