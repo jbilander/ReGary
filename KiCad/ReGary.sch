@@ -931,4 +931,23 @@ Connection ~ 3200 6850
 Wire Wire Line
 	2500 7150 2150 7150
 Connection ~ 2500 7150
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 6883696B
+P 6000 6800
+F 0 "J2" V 5964 6512 50  0000 R CNN
+F 1 "Conn_01x04" V 5873 6512 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 6000 6800 50  0001 C CNN
+F 3 "~" H 6000 6800 50  0001 C CNN
+	1    6000 6800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6000 7000 3    50   Output ~ 0
+A19
+Text GLabel 6100 7000 3    50   Output ~ 0
+A20
+Text GLabel 5900 7000 3    50   Output ~ 0
+RW
+Text GLabel 6200 7000 3    50   Output ~ 0
+A21
 $EndSCHEMATC
