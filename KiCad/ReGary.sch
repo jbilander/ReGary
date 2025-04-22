@@ -934,20 +934,39 @@ Connection ~ 2500 7150
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 6883696B
-P 6000 6800
-F 0 "J2" V 5964 6512 50  0000 R CNN
-F 1 "Conn_01x04" V 5873 6512 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 6000 6800 50  0001 C CNN
-F 3 "~" H 6000 6800 50  0001 C CNN
-	1    6000 6800
+P 6000 7100
+F 0 "J2" V 5964 6812 50  0000 R CNN
+F 1 "Conn_01x04" V 5873 6812 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 6000 7100 50  0001 C CNN
+F 3 "~" H 6000 7100 50  0001 C CNN
+	1    6000 7100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6000 7000 3    50   Output ~ 0
+Text GLabel 6000 7300 3    50   Output ~ 0
 A19
-Text GLabel 6100 7000 3    50   Output ~ 0
+Text GLabel 6100 7300 3    50   Output ~ 0
 A20
-Text GLabel 5900 7000 3    50   Output ~ 0
+Text GLabel 5900 7300 3    50   Output ~ 0
 RW
-Text GLabel 6200 7000 3    50   Output ~ 0
+Text GLabel 6200 7300 3    50   Output ~ 0
 A21
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 687BB0B9
+P 6100 6400
+F 0 "J3" V 6064 6212 50  0000 R CNN
+F 1 "Conn_01x02" V 5973 6212 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 6100 6400 50  0001 C CNN
+F 3 "~" H 6100 6400 50  0001 C CNN
+	1    6100 6400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6200 6600 3    50   Input ~ 0
+GND
+Text GLabel 6050 6700 0    50   Input ~ 0
+RECONFIG_N
+Wire Wire Line
+	6100 6600 6100 6700
+Wire Wire Line
+	6100 6700 6050 6700
 $EndSCHEMATC
