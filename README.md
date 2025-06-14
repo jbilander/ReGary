@@ -49,7 +49,7 @@ Specify Layer Sequence: Yes
 
     L1(Top layer):    F_Cu.gbr
     L2(Inner layer1): GND_Cu.gbr
-    L3(Inner layer2): VCC_Cu.gbr
+    L3(Inner layer2): 4V3_Cu.gbr
     L4(Bottom layer): B_Cu.gbr
 
 Remove Order Number: 
