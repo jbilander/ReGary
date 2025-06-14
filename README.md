@@ -17,8 +17,8 @@ This is WORK IN PROGRESS. If you generate gerbers and order PCBs from this sourc
 
 ***
 
-<a href="images/pin_assignment_regary_rev1a.jpg">
-<img src="images/pin_assignment_regary_rev1a.jpg" width="746" height="806">
+<a href="images/Fat_ReGary_pinmapping_rev1a.png">
+<img src="images/Fat_ReGary_pinmapping_rev1a.png" width="778" height="684">
 </a>
 
 ***
@@ -35,7 +35,7 @@ U8 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally use a home made plug (stac
 U9 | PLCC-84_TH_pin_holes | TH_plug_pins | Pins that could be used with the DIY-plug PCBs rev1d for manual fitting, L8.7mm [Aliexpress](https://www.aliexpress.com/item/32893608810.html).
 R1 | 4.7k Ω | 1206 | Pull-down resistor for TCK (in JTAG)
 RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 | [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
-C1-3 | Capacitor 10uF | 0603 | 
+C1-C3 | Capacitor 10uF | 0603 | 
 C4-C6 | Capacitor 1uF | 0805 | 
 C7-C12 | Capacitor 0.1uF = 100nF | 0805 | 
 C13-C23 | Capacitor 0.01uF = 10nF | 0603 |
