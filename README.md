@@ -33,7 +33,7 @@ U3 | S-1132B43-M5T1U <br />or <br />TPS73643DBVR | SOT-23-5 | Low-Dropout Linear
 U4-U7 | SN74CBT16210 | TSSOP-48 6.1x12.5mm_P0.5mm | 20-BIT FET Bus switch with level shifting, high-speed TTL-compatible. [SN74CBT16210CDGGR ](https://www.mouser.com/ProductDetail/595-SN74CBT16210CDGG)
 U8 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally use a home made plug (stacked PCBs)
 U9 | PLCC-84_TH_pin_holes | TH_plug_pins | Pins that could be used with the DIY-plug PCBs rev1d for manual fitting, L8.7mm [Aliexpress](https://www.aliexpress.com/item/32893608810.html).
-R1 | 4.7k Ω | 1206 | Pull-down resistor for TCK (in JTAG)
+R1 | 4.7k Ω | 0603 | Pull-down resistor for TCK (in JTAG)
 RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 | [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
 C1-C3 | Capacitor 10uF | 0603 | 
 C4-C6 | Capacitor 1uF | 0805 | 
